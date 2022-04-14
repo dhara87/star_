@@ -1,7 +1,7 @@
-
 [build]
-  command = "hugo"
   publish = "public"
-
+  command = "hugo --gc --themesDir themes"
+  
 [build.environment]
-  HUGO_VERSION = "YOUR_HUGO_VERSION"  
+  HUGO_VERSION = "0.92.1"
+  HUGO_THEME = "cosmix"
